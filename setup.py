@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='python-ecb-daily',
-      version='0.2',
+      version='0.3',
       description='Python ECB Daily Rates Wrapper',
       url='https://github.com/fatihsucu/python-ecb-daily',
       author='Fatih Sucu',

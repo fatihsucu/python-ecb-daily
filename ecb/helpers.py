@@ -13,3 +13,7 @@ def get_rate(base="EUR", target="USD"):
     if base == "EUR":
         return trim_eur_rate(target)
     return float(trim_eur_rate(target) / trim_eur_rate(base))
+
+
+def available_currencies():
+    return CURRENCY_RSS_MAPS.keys()
